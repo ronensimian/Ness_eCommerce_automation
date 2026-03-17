@@ -1,0 +1,81 @@
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:79 Starting Scenario: Nike Shoes Search
+[32mINFO    [0m HomePage:base_page.py:20 Navigating to https://www.ebay.com
+[32mINFO    [0m HomePage:home_page.py:13 Searching for product: nike shoes
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Search Input': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153257235023.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Search Input' (Attempt 1/3)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:178 Filled 'Search Input' with value: nike shoes
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Search Button': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153258553573.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Search Button' (Attempt 1/4)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Search Button'
+[32mINFO    [0m SearchResultsPage:search_results_page.py:118 Searching for 'nike shoes' under ILS 220.0 (Limit: 1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153302434478.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Buy It Now Filter'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153306463192.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Max Price Filter' (Attempt 1/8)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:171 Performing 8 manual clear actions for 'Max Price Filter'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:178 Filled 'Max Price Filter' with value: 220
+[32mINFO    [0m SearchResultsPage:search_results_page.py:68 Verifying applied filter: 220.0
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153309869898.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+[32mINFO    [0m SearchResultsPage:search_results_page.py:96 Filter verified: 220.0
+[32mINFO    [0m SearchResultsPage:search_results_page.py:139 Scanning Page 1...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153311481089.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+[32mINFO    [0m SearchResultsPage:search_results_page.py:150 Found 62 potential cards on page 1.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153312313974.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153313065355.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153313897784.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 2': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153314753023.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153316063562.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153316838471.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Price 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153317620765.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Link 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153318481451.png
+[32mINFO    [0m SearchResultsPage:search_results_page.py:183 QUALIFIED: Item 1 | Price: 164.34 | Nike Flex Control 4 TR4 Mens US 7-13 Bla...
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:43 Opening item page: https://www.ebay.com/itm/226958951706
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:49 Scanning for required product variants...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153328681220.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153331599578.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+[32mINFO    [0m ProductPage:product_page.py:90 Opening listbox 1 ('us shoe size (mens):
+select')
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153332434142.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Evo Button 1 Click'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153333428977.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153334348203.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+[32mINFO    [0m ProductPage:product_page.py:119 Listbox has 10 valid variations found.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Option 4': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153335127900.png
+[32mINFO    [0m ProductPage:product_page.py:130 Selecting variation: 9
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153337142413.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:178 Adding item to cart (Attempt 1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153339327921.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Add to Cart Button'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Confirmation': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153342190615.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Confirmation' (Attempt 1/5)
+[32mINFO    [0m ProductPage:product_page.py:186 Verification Success: Item added to cart.
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:65 Successfully added to cart and synced session for: https://www.ebay.com/itm/226958951706
+[32mINFO    [0m CartPage:base_page.py:20 Navigating to https://cart.ebay.com
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Cart Item Count' not detected after all attempts.
+[33mWARNING [0m CartPage:cart_page.py:36 Could not clearly detect item count in cart header.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Bot Detection Indicator': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153359803686.png
+[33mWARNING [0m utils.locator_utility:locator_utility.py:42 Pausing for up to 60 seconds. PLEASE SOLVE CAPTCHA MANUALLY IF NEEDED.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:47 Captcha resolved! Proceeding...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153407808110.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+[32mINFO    [0m CartPage:cart_page.py:51 Extracted cart total: 164.34
+[32mINFO    [0m CartPage:cart_page.py:74 Cart Verification: Total=164.34, Threshold=220.0 (1 items * ILS 220.0)
+[32mINFO    [0m CartPage:cart_page.py:87 Verification Success: Cart matches expected criteria.

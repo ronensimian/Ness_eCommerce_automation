@@ -1,0 +1,119 @@
+2026-03-17 15:32:55 [INFO] tests.test_ecommerce: Starting Scenario: Keyboard Search
+2026-03-17 15:32:55 [INFO] HomePage: Navigating to https://www.ebay.com
+2026-03-17 15:32:57 [INFO] HomePage: Searching for product: keyboard
+2026-03-17 15:32:57 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Input': results\chrome_latest-Keyboard_Search\screenshots\20260317153257118493.png
+2026-03-17 15:32:58 [INFO] utils.locator_utility: SUCCESS: Found 'Search Input' (Attempt 1/3)
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Filled 'Search Input' with value: keyboard
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153258644598.png
+2026-03-17 15:32:59 [INFO] utils.locator_utility: SUCCESS: Found 'Search Button' (Attempt 1/4)
+2026-03-17 15:33:00 [INFO] utils.locator_utility: Clicked 'Search Button'
+2026-03-17 15:33:00 [INFO] SearchResultsPage: Searching for 'keyboard' under ILS 100.0 (Limit: 2)
+2026-03-17 15:33:04 [INFO] utils.locator_utility: Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153303778116.png
+2026-03-17 15:33:04 [INFO] utils.locator_utility: SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+2026-03-17 15:33:05 [INFO] utils.locator_utility: Clicked 'Buy It Now Filter'
+2026-03-17 15:33:10 [INFO] utils.locator_utility: Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153309513578.png
+2026-03-17 15:33:10 [INFO] utils.locator_utility: SUCCESS: Found 'Max Price Filter' (Attempt 1/8)
+2026-03-17 15:33:10 [INFO] utils.locator_utility: Performing 8 manual clear actions for 'Max Price Filter'
+2026-03-17 15:33:11 [INFO] utils.locator_utility: Filled 'Max Price Filter' with value: 100
+2026-03-17 15:33:11 [INFO] SearchResultsPage: Verifying applied filter: 100.0
+2026-03-17 15:33:14 [INFO] utils.locator_utility: Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Keyboard_Search\screenshots\20260317153313749344.png
+2026-03-17 15:33:15 [INFO] utils.locator_utility: SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+2026-03-17 15:33:15 [INFO] utils.locator_utility: NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+2026-03-17 15:33:16 [INFO] SearchResultsPage: Filter verified: 100.0
+2026-03-17 15:33:16 [INFO] SearchResultsPage: Scanning Page 1...
+2026-03-17 15:33:16 [INFO] utils.locator_utility: Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Keyboard_Search\screenshots\20260317153316492887.png
+2026-03-17 15:33:17 [INFO] utils.locator_utility: SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+2026-03-17 15:33:17 [INFO] SearchResultsPage: Found 62 potential cards on page 1.
+2026-03-17 15:33:17 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153317511361.png
+2026-03-17 15:33:18 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153318548469.png
+2026-03-17 15:33:19 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153319548020.png
+2026-03-17 15:33:20 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153320589423.png
+2026-03-17 15:33:21 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153321523434.png
+2026-03-17 15:33:22 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153322413064.png
+2026-03-17 15:33:23 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153323333632.png
+2026-03-17 15:33:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153324346725.png
+2026-03-17 15:33:25 [INFO] SearchResultsPage: QUALIFIED: Item 1 | Price: 15.56 | NEW Replacement keycaps for Corsair K65 ...
+2026-03-17 15:33:25 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 4 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153325254384.png
+2026-03-17 15:33:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153326166748.png
+2026-03-17 15:33:27 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153327207524.png
+2026-03-17 15:33:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153328507535.png
+2026-03-17 15:33:30 [INFO] SearchResultsPage: QUALIFIED: Item 2 | Price: 15.4 | NEW Customized Rem Anime Keycaps Clear B...
+2026-03-17 15:33:30 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/313500148773
+2026-03-17 15:33:35 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:33:38 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:33:38 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:33:40 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:41 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:42 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:43 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:44 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153343701384.png
+2026-03-17 15:33:44 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:33:45 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:33:46 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153345966228.png
+2026-03-17 15:33:46 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:33:46 [INFO] ProductPage: Opening listbox 1 ('model:
+select')
+2026-03-17 15:33:47 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153346871164.png
+2026-03-17 15:33:47 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:33:48 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153348098399.png
+2026-03-17 15:33:48 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:33:49 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153349103004.png
+2026-03-17 15:33:49 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:33:49 [INFO] ProductPage: Listbox has 87 valid variations found.
+2026-03-17 15:33:50 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 42': results\chrome_latest-Keyboard_Search\screenshots\20260317153349999503.png
+2026-03-17 15:33:50 [INFO] ProductPage: Selecting variation: X
+2026-03-17 15:33:52 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153352532224.png
+2026-03-17 15:33:53 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:33:54 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:33:54 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:33:55 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153354981854.png
+2026-03-17 15:33:55 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:33:56 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:33:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153358298414.png
+2026-03-17 15:33:59 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:33:59 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:11 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/313500148773
+2026-03-17 15:34:11 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/297605683363
+2026-03-17 15:34:14 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:34:15 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:34:15 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:34:16 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:17 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:18 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:19 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:19 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153419602375.png
+2026-03-17 15:34:20 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:34:21 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:34:21 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153421386868.png
+2026-03-17 15:34:22 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:34:22 [INFO] ProductPage: Opening listbox 1 ('color:
+select')
+2026-03-17 15:34:22 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153422113865.png
+2026-03-17 15:34:22 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:34:23 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153423022309.png
+2026-03-17 15:34:23 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:34:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153423895729.png
+2026-03-17 15:34:24 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:34:24 [INFO] ProductPage: Listbox has 21 valid variations found.
+2026-03-17 15:34:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 19': results\chrome_latest-Keyboard_Search\screenshots\20260317153424665668.png
+2026-03-17 15:34:25 [INFO] ProductPage: Selecting variation: FM-7NK-蕾姆19
+2026-03-17 15:34:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153426692899.png
+2026-03-17 15:34:27 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:34:28 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:34:28 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:34:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153428823876.png
+2026-03-17 15:34:29 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:34:29 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:34:31 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153431666234.png
+2026-03-17 15:34:32 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:34:32 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:34 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/297605683363
+2026-03-17 15:34:34 [INFO] CartPage: Navigating to https://cart.ebay.com
+2026-03-17 15:34:36 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Item Count': results\chrome_latest-Keyboard_Search\screenshots\20260317153436127640.png
+2026-03-17 15:34:36 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Item Count' (Attempt 1/1)
+2026-03-17 15:34:36 [INFO] CartPage: Detected 2 items in cart via header.
+2026-03-17 15:34:37 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Keyboard_Search\screenshots\20260317153436949100.png
+2026-03-17 15:34:37 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+2026-03-17 15:34:37 [INFO] CartPage: Extracted cart total: 30.96
+2026-03-17 15:34:37 [INFO] CartPage: Cart Verification: Total=30.96, Threshold=200.0 (2 items * ILS 100.0)
+2026-03-17 15:34:37 [INFO] CartPage: Verification Success: Cart matches expected criteria.

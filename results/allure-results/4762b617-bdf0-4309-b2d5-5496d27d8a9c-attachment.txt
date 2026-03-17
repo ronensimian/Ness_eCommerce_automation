@@ -1,0 +1,119 @@
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:79 Starting Scenario: Keyboard Search
+[32mINFO    [0m HomePage:base_page.py:20 Navigating to https://www.ebay.com
+[32mINFO    [0m HomePage:home_page.py:13 Searching for product: keyboard
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Search Input': results\chrome_latest-Keyboard_Search\screenshots\20260317153257118493.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Search Input' (Attempt 1/3)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:178 Filled 'Search Input' with value: keyboard
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Search Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153258644598.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Search Button' (Attempt 1/4)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Search Button'
+[32mINFO    [0m SearchResultsPage:search_results_page.py:118 Searching for 'keyboard' under ILS 100.0 (Limit: 2)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153303778116.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Buy It Now Filter'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153309513578.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Max Price Filter' (Attempt 1/8)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:171 Performing 8 manual clear actions for 'Max Price Filter'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:178 Filled 'Max Price Filter' with value: 100
+[32mINFO    [0m SearchResultsPage:search_results_page.py:68 Verifying applied filter: 100.0
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Keyboard_Search\screenshots\20260317153313749344.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+[32mINFO    [0m SearchResultsPage:search_results_page.py:96 Filter verified: 100.0
+[32mINFO    [0m SearchResultsPage:search_results_page.py:139 Scanning Page 1...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Keyboard_Search\screenshots\20260317153316492887.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+[32mINFO    [0m SearchResultsPage:search_results_page.py:150 Found 62 potential cards on page 1.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153317511361.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153318548469.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153319548020.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153320589423.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153321523434.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153322413064.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Price 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153323333632.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Link 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153324346725.png
+[32mINFO    [0m SearchResultsPage:search_results_page.py:183 QUALIFIED: Item 1 | Price: 15.56 | NEW Replacement keycaps for Corsair K65 ...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Item Card 4 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153325254384.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Title 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153326166748.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Price 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153327207524.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Link 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153328507535.png
+[32mINFO    [0m SearchResultsPage:search_results_page.py:183 QUALIFIED: Item 2 | Price: 15.4 | NEW Customized Rem Anime Keycaps Clear B...
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:43 Opening item page: https://www.ebay.com/itm/313500148773
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:49 Scanning for required product variants...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153343701384.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153345966228.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+[32mINFO    [0m ProductPage:product_page.py:90 Opening listbox 1 ('model:
+select')
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153346871164.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Evo Button 1 Click'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153348098399.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153349103004.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+[32mINFO    [0m ProductPage:product_page.py:119 Listbox has 87 valid variations found.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Option 42': results\chrome_latest-Keyboard_Search\screenshots\20260317153349999503.png
+[32mINFO    [0m ProductPage:product_page.py:130 Selecting variation: X
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153352532224.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:178 Adding item to cart (Attempt 1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153354981854.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Add to Cart Button'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153358298414.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Confirmation' (Attempt 1/5)
+[32mINFO    [0m ProductPage:product_page.py:186 Verification Success: Item added to cart.
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:65 Successfully added to cart and synced session for: https://www.ebay.com/itm/313500148773
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:43 Opening item page: https://www.ebay.com/itm/297605683363
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:49 Scanning for required product variants...
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153419602375.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153421386868.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+[32mINFO    [0m ProductPage:product_page.py:90 Opening listbox 1 ('color:
+select')
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153422113865.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Evo Button 1 Click'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153423022309.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153423895729.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+[32mINFO    [0m ProductPage:product_page.py:119 Listbox has 21 valid variations found.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Listbox Option 19': results\chrome_latest-Keyboard_Search\screenshots\20260317153424665668.png
+[32mINFO    [0m ProductPage:product_page.py:130 Selecting variation: FM-7NK-蕾姆19
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153426692899.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:146 NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+[32mINFO    [0m ProductPage:product_page.py:178 Adding item to cart (Attempt 1)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153428823876.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+[32mINFO    [0m utils.locator_utility:locator_utility.py:162 Clicked 'Add to Cart Button'
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153431666234.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Confirmation' (Attempt 1/5)
+[32mINFO    [0m ProductPage:product_page.py:186 Verification Success: Item added to cart.
+[32mINFO    [0m tests.test_ecommerce:test_ecommerce.py:65 Successfully added to cart and synced session for: https://www.ebay.com/itm/297605683363
+[32mINFO    [0m CartPage:base_page.py:20 Navigating to https://cart.ebay.com
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Cart Item Count': results\chrome_latest-Keyboard_Search\screenshots\20260317153436127640.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Cart Item Count' (Attempt 1/1)
+[32mINFO    [0m CartPage:cart_page.py:33 Detected 2 items in cart via header.
+[32mINFO    [0m utils.locator_utility:locator_utility.py:83 Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Keyboard_Search\screenshots\20260317153436949100.png
+[32mINFO    [0m utils.locator_utility:locator_utility.py:135 SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+[32mINFO    [0m CartPage:cart_page.py:51 Extracted cart total: 30.96
+[32mINFO    [0m CartPage:cart_page.py:74 Cart Verification: Total=30.96, Threshold=200.0 (2 items * ILS 100.0)
+[32mINFO    [0m CartPage:cart_page.py:87 Verification Success: Cart matches expected criteria.

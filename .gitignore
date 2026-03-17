@@ -10,12 +10,6 @@ __pycache__/
 .pytest_cache/
 .cache/
 
-# Test Results & Artifacts
-results/
-artifacts/
-allure-results/
-allure-report/
-
 # IDE settings
 .vscode/
 .idea/

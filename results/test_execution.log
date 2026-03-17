@@ -1,0 +1,375 @@
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:52 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:53 [INFO] utils.data_reader: Successfully loaded test data from test_data.json
+2026-03-17 15:32:55 [INFO] tests.test_ecommerce: Starting Scenario: Mouse Search
+2026-03-17 15:32:55 [INFO] HomePage: Navigating to https://www.ebay.com
+2026-03-17 15:32:55 [INFO] tests.test_ecommerce: Starting Scenario: Keyboard Search
+2026-03-17 15:32:55 [INFO] tests.test_ecommerce: Starting Scenario: Nike Shoes Search
+2026-03-17 15:32:55 [INFO] HomePage: Navigating to https://www.ebay.com
+2026-03-17 15:32:55 [INFO] HomePage: Navigating to https://www.ebay.com
+2026-03-17 15:32:57 [INFO] HomePage: Searching for product: keyboard
+2026-03-17 15:32:57 [INFO] HomePage: Searching for product: mouse
+2026-03-17 15:32:57 [INFO] HomePage: Searching for product: nike shoes
+2026-03-17 15:32:57 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Input': results\chrome_latest-Keyboard_Search\screenshots\20260317153257118493.png
+2026-03-17 15:32:57 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Input': results\chrome_latest-Mouse_Search\screenshots\20260317153257216579.png
+2026-03-17 15:32:57 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Input': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153257235023.png
+2026-03-17 15:32:58 [INFO] utils.locator_utility: SUCCESS: Found 'Search Input' (Attempt 1/3)
+2026-03-17 15:32:58 [INFO] utils.locator_utility: SUCCESS: Found 'Search Input' (Attempt 1/3)
+2026-03-17 15:32:58 [INFO] utils.locator_utility: SUCCESS: Found 'Search Input' (Attempt 1/3)
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Filled 'Search Input' with value: mouse
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Filled 'Search Input' with value: nike shoes
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Filled 'Search Input' with value: keyboard
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Button': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153258553573.png
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Button': results\chrome_latest-Mouse_Search\screenshots\20260317153258688523.png
+2026-03-17 15:32:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Search Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153258644598.png
+2026-03-17 15:32:59 [INFO] utils.locator_utility: SUCCESS: Found 'Search Button' (Attempt 1/4)
+2026-03-17 15:32:59 [INFO] utils.locator_utility: SUCCESS: Found 'Search Button' (Attempt 1/4)
+2026-03-17 15:32:59 [INFO] utils.locator_utility: SUCCESS: Found 'Search Button' (Attempt 1/4)
+2026-03-17 15:32:59 [INFO] utils.locator_utility: Clicked 'Search Button'
+2026-03-17 15:33:00 [INFO] SearchResultsPage: Searching for 'nike shoes' under ILS 220.0 (Limit: 1)
+2026-03-17 15:33:00 [INFO] utils.locator_utility: Clicked 'Search Button'
+2026-03-17 15:33:00 [INFO] utils.locator_utility: Clicked 'Search Button'
+2026-03-17 15:33:00 [INFO] SearchResultsPage: Searching for 'mouse' under ILS 50.0 (Limit: 3)
+2026-03-17 15:33:00 [INFO] SearchResultsPage: Searching for 'keyboard' under ILS 100.0 (Limit: 2)
+2026-03-17 15:33:02 [INFO] utils.locator_utility: Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153302434478.png
+2026-03-17 15:33:03 [INFO] utils.locator_utility: SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+2026-03-17 15:33:03 [INFO] utils.locator_utility: Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Mouse_Search\screenshots\20260317153303209438.png
+2026-03-17 15:33:04 [INFO] utils.locator_utility: Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153303778116.png
+2026-03-17 15:33:04 [INFO] utils.locator_utility: Clicked 'Buy It Now Filter'
+2026-03-17 15:33:04 [INFO] utils.locator_utility: SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+2026-03-17 15:33:04 [INFO] utils.locator_utility: SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+2026-03-17 15:33:05 [WARNING] utils.locator_utility: Initial click failed or intercepted for 'Buy It Now Filter': Locator.click: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("a[href*='LH_BIN=1']").first
+    - locator resolved to <a _sp="p2351460.m4118.c1" class="rbx x-refine__single-select-link" href="https://www.ebay.com/sch/i.html?_nkw=mouse&_sacat=0&_from=R40&rt=nc&LH_BIN=1" data-s-qitk289="{"eventFamily":"LST","eventAction":"ACTN","actionKind":"NAVSRC","actionKinds":["NAVSRC"],"operationId":"2351460","flushImmediately":false,"eventProperty":{"moduledtl":"mi%3A4118%7Ciid%3A1%7Cselected%3A0%7Cglobal%3A1%7CaspectURLParam%3ALH_BIN%7Cli%3A8173%7Cluid%3A134%7C","pageci":"d1d8247f-2205-11f1-9ab9-6a19e7994713","parentrq":"fb…>…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+. Attempting recovery/forced click.
+2026-03-17 15:33:05 [INFO] utils.locator_utility: Clicked 'Buy It Now Filter'
+2026-03-17 15:33:06 [INFO] utils.locator_utility: Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153306463192.png
+2026-03-17 15:33:07 [INFO] utils.locator_utility: SUCCESS: Found 'Max Price Filter' (Attempt 1/8)
+2026-03-17 15:33:07 [INFO] utils.locator_utility: Performing 8 manual clear actions for 'Max Price Filter'
+2026-03-17 15:33:07 [INFO] utils.locator_utility: Visual checkpoint captured for 'Buy It Now Filter': results\chrome_latest-Mouse_Search\screenshots\20260317153306859577.png
+2026-03-17 15:33:08 [INFO] utils.locator_utility: Filled 'Max Price Filter' with value: 220
+2026-03-17 15:33:08 [INFO] SearchResultsPage: Verifying applied filter: 220.0
+2026-03-17 15:33:08 [INFO] utils.locator_utility: SUCCESS: Found 'Buy It Now Filter' (Attempt 1/3)
+2026-03-17 15:33:09 [INFO] utils.locator_utility: Clicked 'Buy It Now Filter'
+2026-03-17 15:33:10 [INFO] utils.locator_utility: Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Keyboard_Search\screenshots\20260317153309513578.png
+2026-03-17 15:33:10 [INFO] utils.locator_utility: Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153309869898.png
+2026-03-17 15:33:10 [INFO] utils.locator_utility: SUCCESS: Found 'Max Price Filter' (Attempt 1/8)
+2026-03-17 15:33:10 [INFO] utils.locator_utility: Performing 8 manual clear actions for 'Max Price Filter'
+2026-03-17 15:33:11 [INFO] utils.locator_utility: SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+2026-03-17 15:33:11 [INFO] utils.locator_utility: NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+2026-03-17 15:33:11 [INFO] SearchResultsPage: Filter verified: 220.0
+2026-03-17 15:33:11 [INFO] SearchResultsPage: Scanning Page 1...
+2026-03-17 15:33:11 [INFO] utils.locator_utility: Filled 'Max Price Filter' with value: 100
+2026-03-17 15:33:11 [INFO] utils.locator_utility: Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153311481089.png
+2026-03-17 15:33:11 [INFO] SearchResultsPage: Verifying applied filter: 100.0
+2026-03-17 15:33:12 [INFO] utils.locator_utility: SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+2026-03-17 15:33:12 [INFO] SearchResultsPage: Found 62 potential cards on page 1.
+2026-03-17 15:33:12 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153312313974.png
+2026-03-17 15:33:13 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153313065355.png
+2026-03-17 15:33:14 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153313897784.png
+2026-03-17 15:33:14 [INFO] utils.locator_utility: Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Keyboard_Search\screenshots\20260317153313749344.png
+2026-03-17 15:33:14 [WARNING] utils.locator_utility: ATTEMPT 1/8 FAILED for 'Max Price Filter' using: input[aria-label*='Maximum Value']
+2026-03-17 15:33:15 [INFO] utils.locator_utility: SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+2026-03-17 15:33:15 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 2': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153314753023.png
+2026-03-17 15:33:15 [WARNING] utils.locator_utility: ATTEMPT 2/8 FAILED for 'Max Price Filter' using: input[placeholder*='max']
+2026-03-17 15:33:15 [INFO] utils.locator_utility: NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+2026-03-17 15:33:16 [INFO] SearchResultsPage: Filter verified: 100.0
+2026-03-17 15:33:16 [INFO] SearchResultsPage: Scanning Page 1...
+2026-03-17 15:33:16 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153316063562.png
+2026-03-17 15:33:16 [WARNING] utils.locator_utility: ATTEMPT 3/8 FAILED for 'Max Price Filter' using: .x-search-field__input--max
+2026-03-17 15:33:16 [INFO] utils.locator_utility: Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Keyboard_Search\screenshots\20260317153316492887.png
+2026-03-17 15:33:17 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153316838471.png
+2026-03-17 15:33:17 [INFO] utils.locator_utility: SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+2026-03-17 15:33:17 [INFO] SearchResultsPage: Found 62 potential cards on page 1.
+2026-03-17 15:33:17 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153317620765.png
+2026-03-17 15:33:17 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153317511361.png
+2026-03-17 15:33:17 [WARNING] utils.locator_utility: ATTEMPT 4/8 FAILED for 'Max Price Filter' using: input[id*='price_max']
+2026-03-17 15:33:18 [INFO] utils.locator_utility: Visual checkpoint captured for 'Max Price Filter': results\chrome_latest-Mouse_Search\screenshots\20260317153317935897.png
+2026-03-17 15:33:18 [INFO] utils.locator_utility: SUCCESS: Found 'Max Price Filter' (Attempt 5/8)
+2026-03-17 15:33:18 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 3': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153318481451.png
+2026-03-17 15:33:18 [INFO] utils.locator_utility: Performing 8 manual clear actions for 'Max Price Filter'
+2026-03-17 15:33:18 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153318548469.png
+2026-03-17 15:33:19 [INFO] SearchResultsPage: QUALIFIED: Item 1 | Price: 164.34 | Nike Flex Control 4 TR4 Mens US 7-13 Bla...
+2026-03-17 15:33:19 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/226958951706
+2026-03-17 15:33:19 [INFO] utils.locator_utility: Filled 'Max Price Filter' with value: 50
+2026-03-17 15:33:19 [INFO] SearchResultsPage: Verifying applied filter: 50.0
+2026-03-17 15:33:19 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153319548020.png
+2026-03-17 15:33:20 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153320589423.png
+2026-03-17 15:33:21 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153321523434.png
+2026-03-17 15:33:21 [INFO] utils.locator_utility: Visual checkpoint captured for 'Applied Filter Chip': results\chrome_latest-Mouse_Search\screenshots\20260317153321413460.png
+2026-03-17 15:33:22 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:33:22 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153322413064.png
+2026-03-17 15:33:23 [INFO] utils.locator_utility: SUCCESS: Found 'Applied Filter Chip' (Attempt 1/5)
+2026-03-17 15:33:23 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153323333632.png
+2026-03-17 15:33:23 [INFO] utils.locator_utility: NOTICE: Optional element 'Filter Chip Price' not detected after all attempts.
+2026-03-17 15:33:23 [INFO] SearchResultsPage: Filter verified: 50.0
+2026-03-17 15:33:23 [INFO] SearchResultsPage: Scanning Page 1...
+2026-03-17 15:33:24 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:33:24 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:33:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Results Area P1': results\chrome_latest-Mouse_Search\screenshots\20260317153324118717.png
+2026-03-17 15:33:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 3': results\chrome_latest-Keyboard_Search\screenshots\20260317153324346725.png
+2026-03-17 15:33:24 [INFO] utils.locator_utility: SUCCESS: Found 'Results Area P1' (Attempt 1/3)
+2026-03-17 15:33:24 [INFO] SearchResultsPage: Found 62 potential cards on page 1.
+2026-03-17 15:33:25 [INFO] SearchResultsPage: QUALIFIED: Item 1 | Price: 15.56 | NEW Replacement keycaps for Corsair K65 ...
+2026-03-17 15:33:25 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 1 on Page 1': results\chrome_latest-Mouse_Search\screenshots\20260317153325018546.png
+2026-03-17 15:33:25 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:25 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 4 on Page 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153325254384.png
+2026-03-17 15:33:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 1': results\chrome_latest-Mouse_Search\screenshots\20260317153325892861.png
+2026-03-17 15:33:26 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153326166748.png
+2026-03-17 15:33:27 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 2 on Page 1': results\chrome_latest-Mouse_Search\screenshots\20260317153326813479.png
+2026-03-17 15:33:27 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:27 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153327207524.png
+2026-03-17 15:33:28 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 2': results\chrome_latest-Mouse_Search\screenshots\20260317153327778784.png
+2026-03-17 15:33:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 4': results\chrome_latest-Keyboard_Search\screenshots\20260317153328507535.png
+2026-03-17 15:33:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153328681220.png
+2026-03-17 15:33:30 [INFO] SearchResultsPage: QUALIFIED: Item 2 | Price: 15.4 | NEW Customized Rem Anime Keycaps Clear B...
+2026-03-17 15:33:30 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/313500148773
+2026-03-17 15:33:30 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:33:30 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 3 on Page 1': results\chrome_latest-Mouse_Search\screenshots\20260317153330129645.png
+2026-03-17 15:33:31 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:33:31 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153331599578.png
+2026-03-17 15:33:31 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 3': results\chrome_latest-Mouse_Search\screenshots\20260317153331367168.png
+2026-03-17 15:33:32 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:33:32 [INFO] ProductPage: Opening listbox 1 ('us shoe size (mens):
+select')
+2026-03-17 15:33:32 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153332434142.png
+2026-03-17 15:33:32 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 3': results\chrome_latest-Mouse_Search\screenshots\20260317153332540699.png
+2026-03-17 15:33:33 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:33:33 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153333428977.png
+2026-03-17 15:33:33 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 3': results\chrome_latest-Mouse_Search\screenshots\20260317153333508913.png
+2026-03-17 15:33:34 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:33:34 [INFO] SearchResultsPage: QUALIFIED: Item 1 | Price: 12.76 | BLACK WIRELESS CORDLESS 2.4ghZ MOUSE USB...
+2026-03-17 15:33:34 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153334348203.png
+2026-03-17 15:33:34 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 4 on Page 1': results\chrome_latest-Mouse_Search\screenshots\20260317153334443275.png
+2026-03-17 15:33:35 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:33:35 [INFO] ProductPage: Listbox has 10 valid variations found.
+2026-03-17 15:33:35 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 4': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153335127900.png
+2026-03-17 15:33:35 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:33:35 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 4': results\chrome_latest-Mouse_Search\screenshots\20260317153335366625.png
+2026-03-17 15:33:35 [INFO] ProductPage: Selecting variation: 9
+2026-03-17 15:33:36 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 4': results\chrome_latest-Mouse_Search\screenshots\20260317153336267515.png
+2026-03-17 15:33:37 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153337142413.png
+2026-03-17 15:33:37 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 4': results\chrome_latest-Mouse_Search\screenshots\20260317153337190024.png
+2026-03-17 15:33:37 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:33:38 [INFO] SearchResultsPage: QUALIFIED: Item 2 | Price: 31.16 | 2.4GHz Wireless Optical Mouse USB Rechar...
+2026-03-17 15:33:38 [INFO] utils.locator_utility: Visual checkpoint captured for 'Item Card 5 on Page 1': results\chrome_latest-Mouse_Search\screenshots\20260317153338163465.png
+2026-03-17 15:33:38 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:33:38 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:33:38 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:33:39 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:33:39 [INFO] utils.locator_utility: Visual checkpoint captured for 'Title 5': results\chrome_latest-Mouse_Search\screenshots\20260317153339059347.png
+2026-03-17 15:33:39 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153339327921.png
+2026-03-17 15:33:40 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:33:40 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:33:40 [INFO] utils.locator_utility: Visual checkpoint captured for 'Price 5': results\chrome_latest-Mouse_Search\screenshots\20260317153339946792.png
+2026-03-17 15:33:40 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:41 [INFO] utils.locator_utility: Visual checkpoint captured for 'Link 5': results\chrome_latest-Mouse_Search\screenshots\20260317153340843583.png
+2026-03-17 15:33:41 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:41 [INFO] SearchResultsPage: QUALIFIED: Item 3 | Price: 25.08 | 2.4GHz Wireless Gaming Mouse for PC
+Open...
+2026-03-17 15:33:41 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/157646101930
+2026-03-17 15:33:42 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153342190615.png
+2026-03-17 15:33:42 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:42 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:33:42 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:33:43 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:44 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153343701384.png
+2026-03-17 15:33:44 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:33:45 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:33:46 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153345966228.png
+2026-03-17 15:33:46 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:33:46 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:33:46 [INFO] ProductPage: Opening listbox 1 ('model:
+select')
+2026-03-17 15:33:47 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153346871164.png
+2026-03-17 15:33:47 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:33:48 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153348098399.png
+2026-03-17 15:33:48 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:33:49 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153349103004.png
+2026-03-17 15:33:49 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:33:49 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:33:49 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:33:49 [INFO] ProductPage: Listbox has 87 valid variations found.
+2026-03-17 15:33:50 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 42': results\chrome_latest-Keyboard_Search\screenshots\20260317153349999503.png
+2026-03-17 15:33:50 [INFO] ProductPage: Selecting variation: X
+2026-03-17 15:33:51 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:52 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:52 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153352532224.png
+2026-03-17 15:33:53 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:53 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:33:54 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:33:54 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:33:54 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Mouse_Search\screenshots\20260317153354279916.png
+2026-03-17 15:33:54 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:33:54 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/226958951706
+2026-03-17 15:33:54 [INFO] CartPage: Navigating to https://cart.ebay.com
+2026-03-17 15:33:55 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:33:55 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153354981854.png
+2026-03-17 15:33:55 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:33:56 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:33:56 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:33:56 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Mouse_Search\screenshots\20260317153356416340.png
+2026-03-17 15:33:57 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:33:58 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 2' not detected after all attempts.
+2026-03-17 15:33:58 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:33:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153358298414.png
+2026-03-17 15:33:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Mouse_Search\screenshots\20260317153358776804.png
+2026-03-17 15:33:59 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:33:59 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:33:59 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:33:59 [INFO] utils.locator_utility: NOTICE: Optional element 'Cart Item Count' not detected after all attempts.
+2026-03-17 15:33:59 [WARNING] CartPage: Could not clearly detect item count in cart header.
+2026-03-17 15:33:59 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:33:59 [INFO] utils.locator_utility: Visual checkpoint captured for 'Bot Detection Indicator': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153359803686.png
+2026-03-17 15:34:00 [WARNING] utils.locator_utility: Pausing for up to 60 seconds. PLEASE SOLVE CAPTCHA MANUALLY IF NEEDED.
+2026-03-17 15:34:01 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Mouse_Search\screenshots\20260317153401484225.png
+2026-03-17 15:34:02 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:34:02 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:07 [INFO] utils.locator_utility: Captcha resolved! Proceeding...
+2026-03-17 15:34:07 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Nike_Shoes_Search\screenshots\20260317153407808110.png
+2026-03-17 15:34:08 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+2026-03-17 15:34:08 [INFO] CartPage: Extracted cart total: 164.34
+2026-03-17 15:34:08 [INFO] CartPage: Cart Verification: Total=164.34, Threshold=220.0 (1 items * ILS 220.0)
+2026-03-17 15:34:08 [INFO] CartPage: Verification Success: Cart matches expected criteria.
+2026-03-17 15:34:11 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/313500148773
+2026-03-17 15:34:11 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/297605683363
+2026-03-17 15:34:14 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/157646101930
+2026-03-17 15:34:14 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/336130175254
+2026-03-17 15:34:14 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:34:15 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:34:15 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:34:16 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:17 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:17 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:34:18 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:18 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:34:18 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:34:19 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:19 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153419602375.png
+2026-03-17 15:34:19 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:20 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:34:20 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:21 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:34:21 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Keyboard_Search\screenshots\20260317153421386868.png
+2026-03-17 15:34:21 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:22 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:34:22 [INFO] ProductPage: Opening listbox 1 ('color:
+select')
+2026-03-17 15:34:22 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Keyboard_Search\screenshots\20260317153422113865.png
+2026-03-17 15:34:22 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:22 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:34:23 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Keyboard_Search\screenshots\20260317153423022309.png
+2026-03-17 15:34:23 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Mouse_Search\screenshots\20260317153423099101.png
+2026-03-17 15:34:23 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:34:24 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:34:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Keyboard_Search\screenshots\20260317153423895729.png
+2026-03-17 15:34:24 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:34:24 [INFO] ProductPage: Listbox has 21 valid variations found.
+2026-03-17 15:34:24 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 19': results\chrome_latest-Keyboard_Search\screenshots\20260317153424665668.png
+2026-03-17 15:34:25 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:34:25 [INFO] ProductPage: Selecting variation: FM-7NK-蕾姆19
+2026-03-17 15:34:25 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1': results\chrome_latest-Mouse_Search\screenshots\20260317153425307817.png
+2026-03-17 15:34:26 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 1' (Attempt 1/1)
+2026-03-17 15:34:26 [INFO] ProductPage: Opening listbox 1 ('colour:
+select')
+2026-03-17 15:34:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 1 Click': results\chrome_latest-Mouse_Search\screenshots\20260317153426254403.png
+2026-03-17 15:34:26 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Keyboard_Search\screenshots\20260317153426692899.png
+2026-03-17 15:34:27 [INFO] utils.locator_utility: Clicked 'Evo Button 1 Click'
+2026-03-17 15:34:27 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:34:27 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Menu': results\chrome_latest-Mouse_Search\screenshots\20260317153427471906.png
+2026-03-17 15:34:28 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:34:28 [INFO] utils.locator_utility: SUCCESS: Found 'Listbox Menu' (Attempt 1/1)
+2026-03-17 15:34:28 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:34:28 [INFO] utils.locator_utility: Visual checkpoint captured for 'Active Listbox': results\chrome_latest-Mouse_Search\screenshots\20260317153428571224.png
+2026-03-17 15:34:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Keyboard_Search\screenshots\20260317153428823876.png
+2026-03-17 15:34:29 [INFO] utils.locator_utility: SUCCESS: Found 'Active Listbox' (Attempt 1/4)
+2026-03-17 15:34:29 [INFO] ProductPage: Listbox has 6 valid variations found.
+2026-03-17 15:34:29 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:34:29 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:34:29 [INFO] utils.locator_utility: Visual checkpoint captured for 'Listbox Option 1': results\chrome_latest-Mouse_Search\screenshots\20260317153429550520.png
+2026-03-17 15:34:30 [INFO] ProductPage: Selecting variation: Rose gold
+2026-03-17 15:34:31 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Keyboard_Search\screenshots\20260317153431666234.png
+2026-03-17 15:34:32 [INFO] utils.locator_utility: Visual checkpoint captured for 'Evo Button 2': results\chrome_latest-Mouse_Search\screenshots\20260317153431802372.png
+2026-03-17 15:34:32 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:34:32 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:32 [INFO] utils.locator_utility: SUCCESS: Found 'Evo Button 2' (Attempt 1/1)
+2026-03-17 15:34:33 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 3' not detected after all attempts.
+2026-03-17 15:34:34 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:34:34 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/297605683363
+2026-03-17 15:34:34 [INFO] CartPage: Navigating to https://cart.ebay.com
+2026-03-17 15:34:34 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Mouse_Search\screenshots\20260317153434307425.png
+2026-03-17 15:34:35 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:34:35 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:34:36 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Item Count': results\chrome_latest-Keyboard_Search\screenshots\20260317153436127640.png
+2026-03-17 15:34:36 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Item Count' (Attempt 1/1)
+2026-03-17 15:34:36 [INFO] CartPage: Detected 2 items in cart via header.
+2026-03-17 15:34:37 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Keyboard_Search\screenshots\20260317153436949100.png
+2026-03-17 15:34:37 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Mouse_Search\screenshots\20260317153437308388.png
+2026-03-17 15:34:37 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+2026-03-17 15:34:37 [INFO] CartPage: Extracted cart total: 30.96
+2026-03-17 15:34:37 [INFO] CartPage: Cart Verification: Total=30.96, Threshold=200.0 (2 items * ILS 100.0)
+2026-03-17 15:34:37 [INFO] CartPage: Verification Success: Cart matches expected criteria.
+2026-03-17 15:34:37 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:34:37 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:40 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/336130175254
+2026-03-17 15:34:40 [INFO] tests.test_ecommerce: Opening item page: https://www.ebay.com/itm/397462925986
+2026-03-17 15:34:42 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (a[data-testid='ux-call-to-action'] span:has-text('See in cart'))' not detected after all attempts.
+2026-03-17 15:34:43 [INFO] utils.locator_utility: NOTICE: Optional element 'Already in Cart Indicator (//a[contains(., 'See in cart')])' not detected after all attempts.
+2026-03-17 15:34:43 [INFO] ProductPage: Scanning for required product variants...
+2026-03-17 15:34:44 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:45 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:46 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:46 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 1' not detected after all attempts.
+2026-03-17 15:34:47 [INFO] utils.locator_utility: Visual checkpoint captured for 'Dropdown 1': results\chrome_latest-Mouse_Search\screenshots\20260317153447093033.png
+2026-03-17 15:34:47 [INFO] utils.locator_utility: SUCCESS: Found 'Dropdown 1' (Attempt 1/1)
+2026-03-17 15:34:48 [INFO] utils.locator_utility: NOTICE: Optional element 'Dropdown 2' not detected after all attempts.
+2026-03-17 15:34:49 [INFO] utils.locator_utility: NOTICE: Optional element 'Evo Button 1' not detected after all attempts.
+2026-03-17 15:34:49 [INFO] ProductPage: Adding item to cart (Attempt 1)
+2026-03-17 15:34:50 [INFO] utils.locator_utility: Visual checkpoint captured for 'Add to Cart Button': results\chrome_latest-Mouse_Search\screenshots\20260317153450023867.png
+2026-03-17 15:34:50 [INFO] utils.locator_utility: SUCCESS: Found 'Add to Cart Button' (Attempt 1/5)
+2026-03-17 15:34:50 [INFO] utils.locator_utility: Clicked 'Add to Cart Button'
+2026-03-17 15:34:52 [INFO] utils.locator_utility: Visual checkpoint captured for 'Confirmation': results\chrome_latest-Mouse_Search\screenshots\20260317153452765177.png
+2026-03-17 15:34:53 [INFO] utils.locator_utility: SUCCESS: Found 'Confirmation' (Attempt 1/5)
+2026-03-17 15:34:53 [INFO] ProductPage: Verification Success: Item added to cart.
+2026-03-17 15:34:55 [INFO] tests.test_ecommerce: Successfully added to cart and synced session for: https://www.ebay.com/itm/397462925986
+2026-03-17 15:34:55 [INFO] CartPage: Navigating to https://cart.ebay.com
+2026-03-17 15:34:57 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Item Count': results\chrome_latest-Mouse_Search\screenshots\20260317153457250993.png
+2026-03-17 15:34:57 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Item Count' (Attempt 1/1)
+2026-03-17 15:34:57 [INFO] CartPage: Detected 3 items in cart via header.
+2026-03-17 15:34:58 [INFO] utils.locator_utility: Visual checkpoint captured for 'Cart Total Subtotal': results\chrome_latest-Mouse_Search\screenshots\20260317153457939253.png
+2026-03-17 15:34:58 [INFO] utils.locator_utility: SUCCESS: Found 'Cart Total Subtotal' (Attempt 1/6)
+2026-03-17 15:34:58 [INFO] CartPage: Extracted cart total: 69.0
+2026-03-17 15:34:58 [INFO] CartPage: Cart Verification: Total=69.0, Threshold=150.0 (3 items * ILS 50.0)
+2026-03-17 15:34:58 [INFO] CartPage: Verification Success: Cart matches expected criteria.
