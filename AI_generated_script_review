@@ -1,0 +1,14 @@
+Issues identified in step 4 - the AI generated script:
+- Missing try-except, No retries or recovery
+- Missing log messages.
+- Missing assertions
+- Missing timeouts
+- Missing 'else' in #Verify update
+- Need to add time after click on the 'save' button
+- Browser.Close() should be in the 'finally' step of try-except-finally
+
+
+
+
+
+
