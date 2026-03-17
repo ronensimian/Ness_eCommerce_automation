@@ -15,9 +15,11 @@ HTML_REPORT = os.path.join(RESULTS_DIR, "report.html")
 
 MASTER_LOG = os.path.join(RESULTS_DIR, "test_execution.log")
 
+# Ensure results directory exists
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(ALLURE_RESULTS_DIR, exist_ok=True)
 
+# Global configuration for browser profiles
 BROWSER_PROFILES_PATH = os.path.join("data", "browser_profiles.yaml")
 
 def load_browser_profiles():
@@ -115,6 +117,7 @@ def pytest_generate_tests(metafunc):
         
         metafunc.parametrize("browser_config, scenario", list(zip(configs, final_scenarios)), ids=ids, scope="function")
 
+# Configure base logging (Console only by default at session level)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
@@ -173,6 +176,7 @@ def event_loop():
 
 @pytest.fixture(scope="function")
 def test_data():
+    """Fixture to provide test data from JSON."""
     return DataReader.read_json("test_data.json")
 
 @pytest.fixture(scope="function")
@@ -181,6 +185,7 @@ async def page_context(request, browser_config, test_result_dir):
     Standard fixture for providing a clean page for each test.
     Now parameterized by browser_config to support the browser matrix.
     """
+    # Screenshots are saved in a 'screenshots' subfolder within the scenario directory
     test_screenshot_dir = os.path.join(test_result_dir, "screenshots")
     os.makedirs(test_screenshot_dir, exist_ok=True)
 

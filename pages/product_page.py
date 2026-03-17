@@ -48,6 +48,7 @@ class ProductPage(BasePage):
         """Standardizes variant selection logic for standard selects, custom listboxes, and swatches."""
         self.logger.info("Scanning for required product variants...")
         
+        # 1. Handle standard Select dropdowns
         for base_sel in self.DROPDOWN_OPTIONS:
             for i in range(10):
                 try:
@@ -55,10 +56,12 @@ class ProductPage(BasePage):
                     sel_locator = await self.ui.find_element(indexed_sel, f"Dropdown {i + 1}", timeout=800, is_optional=True)
                     if not sel_locator: break
                     
+                    # Target valid options (skip the 'Select' placeholder)
                     option_selector = f"{indexed_sel} >> option:not([value='-1']):not(:has-text('Select')):not(:has-text('Choose')):not(:has-text('Out of stock'))"
                     valid_options_count = await self.page.locator(option_selector).count()
                     
                     if valid_options_count > 0:
+                        # Check if already selected (not "-1" or "Select")
                         current_val = await sel_locator.evaluate("el => el.value")
                         if current_val in ["-1", ""] or "select" in (await sel_locator.evaluate("el => el.options[el.selectedIndex].text")).lower():
                             target_idx = random.randint(0, valid_options_count - 1)
@@ -70,6 +73,7 @@ class ProductPage(BasePage):
                 except Exception:
                     continue
 
+        # 2. Handle Custom Evo Listboxes (Buttons that open menus)
         for base_sel in self.VARIANTS:
             if "select" in base_sel.lower(): continue
             for i in range(10):
@@ -79,6 +83,7 @@ class ProductPage(BasePage):
                     if not btn: break
                     
                     btn_text = (await btn.inner_text()).lower()
+                    # If it says "Select", "Choose", or "None", we need to click it
                     unselected_patterns = ["select", "choose", "- none -", "selection"]
                     if any(p in btn_text for p in unselected_patterns):
                         self.logger.info(f"Opening listbox {i+1} ('{btn_text.strip()}')")
@@ -102,6 +107,7 @@ class ProductPage(BasePage):
                              self.logger.warning("Could not find any active listbox/menu.")
                              continue
                              
+                        # Now find options WITHIN this listbox
                         opt_selector = ".listbox__option:not(:has-text('Select')):not(:has-text('Choose')):not(:has-text('Out of stock'))"
                         options_locator = active_listbox.locator(opt_selector)
                         
@@ -124,11 +130,13 @@ class ProductPage(BasePage):
                 except Exception:
                     continue
 
+        # 3. Handle Swatches/Buttons (Grid layouts)
         for base_sel in self.SWATCH_OPTIONS:
             try:
                 swatch_locator = self.page.locator(base_sel)
                 count = await swatch_locator.count()
                 if count > 0:
+                    # Check if any are already selected
                     selected_count = await self.page.locator(f"{base_sel}[aria-checked='true'], {base_sel}.selected").count()
                     if selected_count == 0:
                         self.logger.info(f"Picking a random swatch from {count} available.")
@@ -149,6 +157,7 @@ class ProductPage(BasePage):
         await self.page.bring_to_front()
         await self.wait_for_ready()
 
+        # Check if already in cart
         for selector in self.SEE_IN_CART:
             try:
                 see_in_cart_locator = await self.ui.find_element(selector, f"Already in Cart Indicator ({selector})", timeout=1000, is_optional=True)
@@ -158,11 +167,13 @@ class ProductPage(BasePage):
             except Exception:
                 pass
 
+        # eBay sometimes requires multiple attempts if variants don't register
         for attempt in range(2):
             await self.select_required_variants()
             self.logger.info(f"Adding item to cart (Attempt {attempt+1})")
             await self.ui.click(self.ADD_TO_CART, "Add to Cart Button")
             
+            # Verify success
             try:
                 confirmation = await self.ui.find_element(self.ADD_TO_CART_CONFIRMED, "Confirmation", timeout=8000)
                 text = (await confirmation.inner_text()).lower()
@@ -171,6 +182,7 @@ class ProductPage(BasePage):
                     return True
             except Exception:
                 self.logger.warning(f"Could not verify 'Added to cart' message on attempt {attempt+1}.")
+                # If it's the first attempt, try to escape and retry
                 await self.page.keyboard.press("Escape")
                 await self.page.wait_for_timeout(1000)
         

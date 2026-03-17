@@ -25,6 +25,7 @@ class CartPage(BasePage):
         try:
             locator = await self.ui.find_element(self.CART_ITEM_COUNT, "Cart Item Count", timeout=3000, is_optional=True)
             text = await locator.inner_text()
+            # Look for digits in text like "Cart (3 items)" or "3 items"
             match = re.search(r'(\d+)', text)
             if match:
                 count = int(match.group(1))
@@ -53,20 +54,26 @@ class CartPage(BasePage):
         """
         Verifies the shopping cart amount and item count.
         """
+        # 1. Open the shopping cart
         await self.navigate("https://cart.ebay.com")
         await self.wait_for_ready()
 
+        # 2. Verify item count
         actual_count = await self.get_item_count()
         if actual_count > 0 and actual_count != items_count:
             self.logger.error(f"ITEM COUNT MISMATCH: Expected {items_count}, but found {actual_count}")
             # We don't raise yet, as subtotal check is primary, but we log it heavily.
         
+        # 3. Read the total amount
         total = await self.get_cart_total()
 
+        # 4. Calculate threshold
         threshold = items_count * budget_per_item
         
         self.logger.info(f"Cart Verification: Total={total}, Threshold={threshold} ({items_count} items * ILS {budget_per_item})")
         
+        # 5. Verify total and count
+        # If count detection failed (actual_count=0) but we have a total, we still check the count if it was found
         if items_count > 0 and actual_count == 0 and total == 0:
              raise AssertionError(f"Cart appears EMPTY! Expected {items_count} items.")
              

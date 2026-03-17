@@ -67,7 +67,6 @@ class SearchResultsPage(BasePage):
         self.logger.info(f"Verifying applied filter: {expected_price}")
         
         try:
-            # 1. Locate chip
             chip = await self.ui.find_element(self.APPLIED_PRICE_FILTER, "Applied Filter Chip", timeout=5000)
             
             actual_price = None
@@ -81,6 +80,7 @@ class SearchResultsPage(BasePage):
             except Exception:
                 pass
             
+            # Fallback to full text if nested price extraction failed
             if actual_price is None:
                 content = await chip.inner_text()
                 matches = re.findall(r'[\d.]+', content.replace(',', ''))
@@ -127,6 +127,7 @@ class SearchResultsPage(BasePage):
         page_num = 1
         seen_urls = set()
         
+        # Ultra-robust XPath targetting items across list, grid, and river views
         XPATH_ITEMS = "//*[contains(@class, 's-item__wrapper') or contains(@class, 's-card')]//ancestor::li[contains(@class, 's-item') or contains(@class, 's-card')] | //div[contains(@class, 's-item__wrapper')]"
         
         while len(qualified_urls) < limit and page_num <= 10:
@@ -146,16 +147,19 @@ class SearchResultsPage(BasePage):
                 if len(qualified_urls) >= limit: break
                 
                 try:
+                    # 1. Capture the Item Card element
                     indexed_card = await self.ui.find_element(card_locator.nth(i), f"Item Card {i+1} on Page {page_num}", timeout=1000)
                     if not await indexed_card.is_visible():
                         continue
                         
+                    # 2. Extract Title
                     title_selector = ".s-card__title, .s-item__title, [role='heading']"
                     title_el = await self.ui.find_element(indexed_card.locator(title_selector).first, f"Title {i+1}")
                     title_text = await title_el.inner_text()
                     if not (title_text.strip() and "Shop on eBay" not in title_text and len(title_text) >= 5):
                         continue
                         
+                    # 3. Extract Price
                     price_selector = ".s-card__price, .su-styled-text.primary.bold.large-1, .s-item__price, [class*='price']"
                     price_el = await self.ui.find_element(indexed_card.locator(price_selector).first, f"Price {i+1}", timeout=1000)
                     price_text = await price_el.inner_text()
@@ -164,6 +168,7 @@ class SearchResultsPage(BasePage):
                     if current_price is None or current_price > budget_per_item:
                         continue
                         
+                    # 4. Extract URL
                     link_selector = ".s-item__link, .s-card__link, a[href*='/itm/']"
                     link_el = await self.ui.find_element(indexed_card.locator(link_selector).first, f"Link {i+1}")
                     url = await link_el.get_attribute("href")
@@ -176,6 +181,7 @@ class SearchResultsPage(BasePage):
                     continue
             
             if len(qualified_urls) < limit:
+                # 5. Handle Pagination
                 try:
                     await self.ui.click(self.NEXT_PAGE, "Next Page")
                     await self.wait_for_ready()

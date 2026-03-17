@@ -55,6 +55,7 @@ class UIActionHandler:
     async def highlight_element_and_capture_screenshot(self, locator: Locator, name: str = "element"):
         """Captures a screenshot with a red frame around the specified element."""
         try:
+            # 1. Apply Highlight (User requirement: 'Red frame for every element')
             try:
                 await locator.evaluate("""el => {
                     el.style.setProperty('outline', '4px solid red', 'important');
@@ -64,6 +65,7 @@ class UIActionHandler:
             except Exception as e:
                 logger.debug(f"Failed to apply highlight to {name}: {e}")
  
+            # Capture Screenshot with pure timestamp as name
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S%f")
             filename = f"{timestamp}.png"
             
@@ -100,9 +102,11 @@ class UIActionHandler:
                 if is_optional: return None
                 raise
 
+        # 2. Normalize selectors to a list
         if isinstance(selectors, str):
             selectors = [selectors]
             
+        # 3. Always check for blockers before searching
         await self.check_for_captcha()
         
         last_error = RuntimeError(f"No selectors provided for {name}")
@@ -115,6 +119,7 @@ class UIActionHandler:
                 current_timeout = timeout if i == 0 else self.RETRY_TIMEOUT
                 await locator.wait_for(state="visible", timeout=current_timeout)
                     
+                # Visual detection checkpoint - centers and highlights element
                 await self.highlight_element_and_capture_screenshot(locator, name)
                 
                 logger.info(f"SUCCESS: Found '{name}' (Attempt {current_try}/{total_selectors})")
